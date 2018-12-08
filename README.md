@@ -11,13 +11,15 @@ by Johannes Paas
 This project labels the pixels of a road in images using a Fully Convolutional Network (FCN).
 Here are two example images, where the labeling was successful.
 
-![alt_text][image1] | ![alt_text][image2]
+![alt_text][image1]
+![alt_text][image2]
 
 In some scenes however the network could work better (two examples below).
 
-![alt_text][image3] | ![alt_text][image4]
+![alt_text][image3]
+![alt_text][image4]
 
-It seems that especially shadows are harder to interpret so a way of improving performance would be to have more scenes with shadows or difficlult lighting conditions in the training dataset. If those are not available data augmentation could be used to introduce random shadows in the pixel areas labeled road in the ground truth data.
+It seems that especially shadows are harder to interpret so a way of improving performance would be to have more scenes with shadows or difficlult lighting conditions in the training dataset. If those are not available data augmentation could be used to introduce random shadows in the pixel areas labeled road in the ground truth data. The full set of inference results can be found [here](https://github.com/Nervehurter/Semantic_Segmentation/tree/master/runs/1544277147.7933457).
 
 ### Setup
 
